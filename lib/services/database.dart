@@ -41,7 +41,7 @@ class DatabaseService {
         media: doc.data['media'] ?? '',
         name: doc.data['name'] ?? '',
 
-        time: doc.data['time'] ,
+        timestamp: doc.data['timestamp'] ,
 
       );
     }).toList();

@@ -6,9 +6,9 @@ class Event {
   final String eventID;
   final String media;
   final String name;
-  final Timestamp time;
+  final Timestamp timestamp;
 
-  Event({this.desc='', this.eventID='',this.media='',this.name='',this.time});
+  Event({this.desc='', this.eventID='',this.media='',this.name='',this.timestamp});
 
 
 

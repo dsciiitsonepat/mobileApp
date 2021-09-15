@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "504507754879",
+    "project_id": "dsciiitsonepat-e2196",
+    "storage_bucket": "dsciiitsonepat-e2196.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:504507754879:android:9839fa78a0ae304f3f524a",
+        "android_client_info": {
+          "package_name": "com.webdevwithus.dsc_iiits"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "504507754879-4fpio8rsd5muo84j7bd01kqmbo7d281j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd58m4zsblnoOpmF0sX0HsI6FNFVJgjgA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "504507754879-4fpio8rsd5muo84j7bd01kqmbo7d281j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

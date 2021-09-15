@@ -13,7 +13,7 @@ class EventListUpcoming extends StatefulWidget {
 class _EventListUpcomingState extends State<EventListUpcoming> {
 
   bool isAfterToday(Timestamp timestamp) {
-    return DateTime.now().toUtc().isAfter(
+    return DateTime.now().toUtc().isBefore(
       DateTime.fromMillisecondsSinceEpoch(
         timestamp.millisecondsSinceEpoch,
         isUtc: false,
@@ -35,7 +35,7 @@ class _EventListUpcomingState extends State<EventListUpcoming> {
       itemBuilder: (context,index) {
 
 
-        return  ? EventTile(event: events[index]) : Container();
+        return index<events.length && isAfterToday(events[index].timestamp) ? EventTile(event: events[index]) : Container();
       },
     );
   }
